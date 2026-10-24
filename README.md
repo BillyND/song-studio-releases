@@ -1,16 +1,23 @@
-# Song Studio — bản phát hành
+# Song Studio: releases
 
-Trang này chỉ chứa bản cài của app Song Studio cho macOS (máy Apple Silicon, macOS 13 trở lên). App tự cập nhật: khi có bản mới, app tự tải, kiểm tra chữ ký và cài khi bạn thoát app.
+This repository holds the installers for Song Studio for macOS. Song Studio turns lyrics into a Suno song, a karaoke video and a lead sheet, with coding agents doing the work alongside you. It runs on Apple Silicon Macs with macOS 13 or later.
 
-## Cài lần đầu
+The app updates itself. When a new version is out, it downloads it, checks its signature and installs it when you quit the app.
 
-1. Vào mục **Releases** bên phải, tải file `SongStudio-<phiên bản>.zip` mới nhất.
-2. Mở file zip, kéo **Song Studio** vào thư mục **Applications** (hoặc `~/Applications`).
-3. Mở app. Vì app không ký với Apple, lần đầu macOS sẽ chặn: vào **Cài đặt hệ thống → Quyền riêng tư & Bảo mật**, kéo xuống, bấm **Vẫn mở**, rồi mở lại app.
-4. Trong app, vào **Cài đặt → Kiểm tra máy** để xem còn thiếu gì (ffmpeg, uv, MuseScore, khoá tạo ảnh…).
+## First install
 
-## Cập nhật
+1. Under **Releases**, download the newest `SongStudio-<version>.zip`.
+2. Unzip it and drag **Song Studio** into **Applications**, or into `~/Applications`.
+3. Open the app. macOS blocks it the first time, because the app is not signed by Apple. To allow it:
+   1. Go to **System Settings → Privacy & Security**.
+   2. Scroll down and click **Open Anyway**.
+   3. Open the app again.
+4. In the app, open **Settings → Machine check**. It lists anything still missing, such as ffmpeg, uv, MuseScore or an image API key.
 
-Không cần làm gì: app kiểm tra mỗi giờ và cài bản mới khi thoát. Muốn cập nhật ngay: menu **Song Studio → Kiểm tra cập nhật…**.
+You can switch the interface between English and Vietnamese under **Settings → Language**.
 
-_Song Studio trước đây tên là Quê Hương Studio; bản cũ tự cập nhật lên tên mới._
+## Updates
+
+You don't need to do anything. The app checks for updates every hour and installs the new version when you quit. To update right away, choose **Song Studio → Check for Updates…**.
+
+_Song Studio used to be called Quê Hương Studio. Older copies update themselves to the new name._
