@@ -12,7 +12,7 @@ The app updates itself. When a new version is out, it downloads it, checks its s
    1. Go to **System Settings → Privacy & Security**.
    2. Scroll down and click **Open Anyway**.
    3. Open the app again.
-4. In the app, open **Settings → Machine check**. It lists anything still missing, such as ffmpeg, uv, MuseScore or an image API key.
+4. In the app, open **Settings → System check**. It lists anything still missing, such as ffmpeg, uv, MuseScore or an image API key.
 
 You can switch the interface between English and Vietnamese under **Settings → Language**.
 
